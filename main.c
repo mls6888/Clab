@@ -17,7 +17,7 @@ int main(void) {
  char* numHold = readline("Enter an int: ");
  int n = atoi(numHold);
  int total = sum_n(n);
-  printf("sum is %d\n", total);
+  printf("sum is %d.\n", total);
   char* s = readline("Enter a string: ");
  print_n(s, n);
 return 0;
