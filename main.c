@@ -21,7 +21,7 @@ int main(void) {
   char* s = readline("Enter a string: ");
  print_n(s, n);
 return 0;
-}
+} 
 
 int sum_n(int n){
   if (n <= 0){
