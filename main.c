@@ -16,7 +16,8 @@ int main(void) {
 
  char* numHold = readline("Enter an int: ");
  int n = atoi(numHold);
-  printf("sum is %s.\n", total);
+ int total = sum_n(n);
+  printf("sum is %.s\n", total);
   char* s = readline("Enter a string: ");
  print_n(s, n);
 return 0;
@@ -25,8 +26,8 @@ return 0;
 int sum_n(int n){
   if (n <= 0){
     return 0; }
-    else {
-      return n+sum_n(n-1);
+  else {
+    return n+sum_n(n-1);
     }
 }
 
